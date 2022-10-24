@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import ContactMe from "../pages/ContactMe";
+import Contact from "../pages/Contact";
 import Home from "../pages/Home";
-import Project from "../pages/Project";
+import About from "../pages/About";
 import Layout from "./Layout";
 
 const Routers = () => {
@@ -9,8 +9,8 @@ const Routers = () => {
         <Routes>
             <Route path="/" element={<Layout />}>
                 <Route index element={<Home />} />
-                <Route path="/projects" element={<Project />} />
-                <Route path="/contactme" element={<ContactMe />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
             </Route>
         </Routes>
     );
