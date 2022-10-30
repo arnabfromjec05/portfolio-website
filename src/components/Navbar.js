@@ -37,7 +37,7 @@ const Navbar = () => {
     );
 
     return (
-        <AppBar position="static">
+        <AppBar position="sticky">
             <Toolbar>
                 <IconButton
                     color="inherit"

@@ -2,11 +2,7 @@ import { Grid, Paper, Toolbar, Typography } from "@mui/material";
 
 const Footer = () => {
     return (
-        <Paper sx={{
-            marginTop: 'calc(10% + 60px)',
-            width: '100%',
-            position: 'fixed',
-            bottom: 0,
+        <Paper sx={{    //todo: stick it to bottom
             py: '1%'
         }} component="footer" square variant="outlined">
             <Toolbar>
