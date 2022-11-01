@@ -3,13 +3,13 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const Layout = () => {
-    return (
-        <>
-            <Navbar />
-            <Outlet />
-            <Footer />
-        </>
-    )
-}
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </>
+  );
+};
 
 export default Layout;
