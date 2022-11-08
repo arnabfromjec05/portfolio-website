@@ -81,10 +81,10 @@ const ProjectsSection = () => {
         >
           {Data.PROJECTS_HEADER}
         </Typography>
-        <Grid container columnSpacing={2} rowSpacing={2}>
+        <Grid container columnSpacing={4} rowSpacing={2}>
           {Data.PROJECTS_LIST.map((project) => (
             <Grid item xs={12} sm={4} key={project.title}>
-              <Card sx={{ maxWidth: 320 }}>
+              <Card sx={{ maxWidth: 320, mx: "auto" }}>
                 <CardMedia
                   component="img"
                   alt={project.title}
