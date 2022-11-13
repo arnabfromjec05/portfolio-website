@@ -54,11 +54,11 @@ const Contact = () => {
       <Box component="form" onSubmit={handleSubmit} sx={{ margin: "5%" }}>
         <Avatar
           alt="Contact me"
-          src="contactme.png"
+          src="memojipic.png"
           sx={{
             margin: "50px auto",
-            width: 120,
-            height: 120,
+            width: 140,
+            height: 140,
             backgroundColor: "lightblue",
           }}
         />

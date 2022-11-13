@@ -1,5 +1,6 @@
 import {
   AppBar,
+  Avatar,
   Box,
   Button,
   Divider,
@@ -33,6 +34,16 @@ const Navbar = () => {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+      <Avatar
+        alt="Arnab Jana"
+        src="mypic2.jpg"
+        sx={{
+          margin: "20px auto",
+          width: 50,
+          height: 50,
+          backgroundColor: "green",
+        }}
+      />
       <Typography variant="h6" sx={{ my: 2, fontWeight: "bold" }}>
         @arnabfromjec05
       </Typography>
@@ -54,7 +65,7 @@ const Navbar = () => {
   );
 
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" sx={{ backgroundColor: "black" }}>
       <Toolbar>
         <IconButton
           color="inherit"

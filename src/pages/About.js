@@ -6,6 +6,7 @@ import {
   CardMedia,
   Grid,
   Paper,
+  Stack,
   Step,
   StepContent,
   StepLabel,
@@ -17,16 +18,18 @@ import * as Data from "../data/about.js";
 const About = () => {
   return (
     <>
-      <IntroSection />
-      <ExperienceSection />
-      <ProjectsSection />
+      <Stack spacing={4} sx={{ margin: "2%" }}>
+        <IntroSection />
+        <ExperienceSection />
+        <ProjectsSection />
+      </Stack>
     </>
   );
 };
 
 const IntroSection = () => {
   return (
-    <Paper elevation={4} sx={{ margin: "2%", padding: "2%" }}>
+    <Paper elevation={4} sx={{ padding: "4%" }}>
       <Typography variant="h6" sx={{ fontWeight: "bold", marginBottom: "1%" }}>
         {Data.INTRO_HEADER}
       </Typography>
@@ -48,7 +51,7 @@ const IntroSection = () => {
 const ExperienceSection = () => {
   return (
     <>
-      <Paper elevation={4} sx={{ margin: "2%", padding: "2%" }}>
+      <Paper elevation={4} sx={{ padding: "4%" }}>
         <Typography
           variant="h6"
           sx={{ fontWeight: "bold", marginBottom: "1%" }}
@@ -74,7 +77,7 @@ const ExperienceSection = () => {
 const ProjectsSection = () => {
   return (
     <>
-      <Paper elevation={4} sx={{ margin: "2%", padding: "2%" }}>
+      <Paper elevation={4} sx={{ padding: "4%" }}>
         <Typography
           variant="h6"
           sx={{ fontWeight: "bold", marginBottom: "1%" }}

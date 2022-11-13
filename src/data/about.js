@@ -3,9 +3,10 @@ export const INTRO_HEADER = "Hello, I am Arnab Jana";
 export const INTRO_DESCRIPTION =
   "I am a Software engineer having 2+ years of professional experience.\
     Graduated from RV College of Engineering Bengaluru in 2020 batch having majors in Computer Science & Engineering.\
-    Currently i am working in Microsoft R&D, Bengaluru in their Azure team as an SDE.\
-    My skillsets include programming languages and tools like C++, Java, Python, Javascript, Typescript, MySQL and MongoDB.\
-    Apart from this i have experience working with Azure cloud services.";
+    Currently i am working in Microsoft R&D, Bengaluru in the Azure team as an SDE.\
+    My skillsets include programming languages: C++, Java, Python, Javascript, Typescript and Front-end libraries like React and Knockout JS.\
+    For backend I have experience working with Node.js and Java (Spring MVC Framework). In Databases I am acquainted to MySQL Relational Database and MongoDB NoSQL database.\
+    Apart from this i have experience working with Azure cloud services and building applications integrating them.";
 
 export const RESUME_LINK =
   "https://drive.google.com/file/d/1-e_mRDDXfcE63IrlcvF8hvzYk0xuBZfL/view?usp=share_link";
@@ -47,7 +48,7 @@ export const PROJECTS_LIST = [
     image: "plms.png",
     link: "https://github.com/arnabfromjec05/parking-lot-management-system",
     description:
-      "Application that emulates the working of a parking lot by automating the entry and exit of vehicles. Various features supported by the system are:\
+      "Full stack application that simulates the working of a Parking lot management, by automating the entry and exit of vehicles. Various features supported by the system are:\
             1. Entry and exit of vehicles. Allowing entry of vehicle only when there is a free parking slot.\
             2. Timed charges based on the stay duration.\
             3. Virtual ticket generation for the allowed vehicles.\
