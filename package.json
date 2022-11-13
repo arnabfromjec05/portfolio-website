@@ -2,6 +2,7 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://arnabfromjec05.github.io/portfolio-website/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
