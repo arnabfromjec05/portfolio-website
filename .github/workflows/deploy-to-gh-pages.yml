@@ -1,4 +1,4 @@
-name: CI
+name: Build & deploy
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
 
     - name: Build
       run: |
-        npm install
+        npm install --force
         npm run-script build
       env:
         REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
