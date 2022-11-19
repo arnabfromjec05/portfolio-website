@@ -48,18 +48,20 @@ export const PROJECTS_LIST = [
     image: "plms.png",
     link: "https://github.com/arnabfromjec05/parking-lot-management-system",
     description:
-      "Full stack application that simulates the working of a Parking lot management, by automating the entry and exit of vehicles. Various features supported by the system are:" +
-      "1. Entry and exit of vehicles. Allowing entry of vehicle only when there is a free parking slot." +
-      "2. Timed charges based on the stay duration." +
-      "3. Virtual ticket generation for the allowed vehicles." +
-      "4. Interface for the current status of slots." +
-      "5. Necessary views allowed for the admin only.",
+      "Full stack application that simulates the working of a Parking lot management, by automating the entry and exit of vehicles. Various features supported by the system are: " +
+      "1. Entry and exit of vehicles. Allowing entry of vehicle only when there is a free parking slot. " +
+      "2. Timed charges based on the stay duration. " +
+      "3. Virtual ticket generation for the allowed vehicles. " +
+      "4. Interface for the current status of slots. " +
+      "5. Necessary views allowed for the admin only. ",
   },
   {
     title: "Portfolio website",
     image: "sde.jpeg",
-    link: "#",
+    link: "https://arnabfromjec05.github.io/portfolio-website/",
     description:
-      "My very own portfolio website build using React + Material UI and soon going to be hosted.",
+      "My very own portfolio website hosted at: https://arnabfromjec05.github.io/portfolio-website/. " +
+      "The entire UI is built using React JS and Material UI component library with a fully integrated CI-CD pipeline using Github Actions. " +
+      "The UX flows drives through my Journey of becoming a Software Engineer, so hope you would like it! ",
   },
 ];
