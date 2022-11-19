@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
 import PersonIcon from "@mui/icons-material/Person";
 import { Avatar, Button, Grid, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -36,7 +37,13 @@ const AboutCard = () => {
           You can check out here.
         </Typography>
       </Typography>
-      <Button href="/about" size="large" variant="outlined">
+      <Button
+        component={Link}
+        to="/about"
+        size="large"
+        variant="outlined"
+        color="secondary"
+      >
         About me
       </Button>
     </Grid>
@@ -64,7 +71,13 @@ const ContactCard = () => {
           I am available on LinkedIn, Instagram, Twitter.
         </Typography>
       </Typography>
-      <Button href="/contact" size="large" variant="outlined">
+      <Button
+        component={Link}
+        to="/contact"
+        size="large"
+        variant="outlined"
+        color="secondary"
+      >
         Contact me
       </Button>
     </Grid>
