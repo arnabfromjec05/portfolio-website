@@ -15,9 +15,14 @@ export const EXPERIENCE_HEADER = "Experience";
 
 export const EXPERIENCE_LIST = [
   {
+    role: "Software Engineer 2",
+    company: "Microsoft",
+    tenure: "Dec, 2022 - Present",
+  },
+  {
     role: "Software Engineer",
     company: "Microsoft",
-    tenure: "Sept, 2021 - Present",
+    tenure: "Sept, 2021 - Nov, 2022",
   },
   {
     role: "Software Engineer 2",
