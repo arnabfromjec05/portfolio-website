@@ -10,6 +10,8 @@ Feel free to explore around and if need be, you can contact me on the social med
 
 Looking forward to your reviews! 😁
 
+<img width="1272" alt="portfolioWebsiteSS" src="https://github.com/arnabfromjec05/portfolio-website/assets/29739623/933b22e6-0d01-4b66-a9aa-0e1b057b938e">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
