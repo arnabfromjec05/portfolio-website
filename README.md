@@ -1,3 +1,15 @@
+# About
+
+Hello there 👋🏼
+
+This repo contains the source code for my personalized portfolio website built from scratch.
+
+If you have landed here, take one more step forward to visit my portfolio website hosted [@arnabfromjec05](https://arnabfromjec05.github.io/portfolio-website/).
+
+Feel free to explore around and if need be, you can contact me on the social media handles listed there or use the contact form to reach out via mail.
+
+Looking forward to your reviews! 😁
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
